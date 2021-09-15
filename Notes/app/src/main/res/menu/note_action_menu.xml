@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btn_go_to_main_from_note"
+        android:icon="@drawable/ic_left_24"
+        app:showAsAction="ifRoom"
+        android:title=""/>
+    <item
+        android:id="@+id/btn_save"
+        android:icon="@drawable/ic_sharp_system_update_24"
+        app:showAsAction="ifRoom"
+        android:title=""/>
+    <item
+        android:id="@+id/btn_delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"
+        android:title=""/>
+
+</menu>

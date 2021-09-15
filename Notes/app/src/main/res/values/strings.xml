@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Note</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_note">Add</string>
+    <string name="start_label">What to choose?</string>
+    <string name="start_btn_room">ROOM</string>
+    <string name="title">Notes</string>
+    <string name="toast_enter_name">write the name</string>
+    <string name="start_btn_firebase">Firebase</string>
+    <string name="start_hint_email">Email</string>
+    <string name="start_hint_password">Password</string>
+    <string name="start_btn_login">login</string>
+    <string name="toast_wrong_enter_email">Write login and password</string>
+    <string name="show_toast_initialization_successful">Initialization is successful</string>
+    <string name="showtoast_created_new_user">A new user has been created</string>
+    <string name="toast_write_name">Write name</string>
+</resources>

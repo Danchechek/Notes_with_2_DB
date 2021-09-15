@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".screens.start.StartFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/app_margin"
+        android:text="@string/start_label"
+        android:textSize="@dimen/app_large_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_room"
+        android:backgroundTint="@color/purple_200"
+        android:layout_margin="@dimen/app_margin"
+        android:layout_width="@dimen/btn_wight"
+        android:layout_height="wrap_content"
+        android:text="@string/start_btn_room"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_firebase"
+        android:layout_margin="@dimen/app_margin"
+        android:layout_width="@dimen/btn_wight"
+        android:backgroundTint="@color/purple_200"
+        android:layout_height="wrap_content"
+        android:text="@string/start_btn_firebase"
+        app:layout_constraintTop_toBottomOf="@id/btn_room"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="@dimen/btn_wight"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/app_margin"
+        android:hint="@string/start_hint_email"
+        android:inputType="textEmailAddress"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_firebase" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="@dimen/btn_wight"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/app_margin"
+        android:hint="@string/start_hint_password"
+        android:inputType="textPassword"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_email" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="@dimen/btn_wight"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/app_margin"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/start_btn_login"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_password" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
