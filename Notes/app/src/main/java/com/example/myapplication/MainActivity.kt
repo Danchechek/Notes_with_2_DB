@@ -10,7 +10,7 @@ import com.example.myapplication.utilits.APP_ACTIVITY
 import com.example.myapplication.utilits.AppPreference
 
 class MainActivity : AppCompatActivity() {
-
+    //second-branch
     lateinit var mToolbar: Toolbar
     lateinit var navController: NavController
     private var _binding:ActivityMainBinding? = null
